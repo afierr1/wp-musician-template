@@ -1,0 +1,123 @@
+/*Custom Navbar*/
+body {
+    background-image: url("../img/printed-music.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed;
+}
+nav.navbar {
+    padding: 0em 6em 0em 6em;
+    height: 80px;
+    width: 100%;
+    z-index: 1;
+}
+.navbar-bg {
+    background-color: transparent;
+    color: white;
+}
+
+a.nav-link {
+    font-size: 25px;
+    margin: 0em 0.7em 0em 0.7em;
+    color: white;
+    text-decoration: none;
+}
+a.nav-link:visited {
+    text-decoration: none;
+    color: white;
+}
+
+/*navbar animation*/
+a.link-animate
+{
+    position: relative;
+}
+
+a.link-animate:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FFF;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+a.link-animate:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+a.navbar-brand {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    color: white;
+}
+
+.front-header-page {
+}
+
+.header-page {
+}
+
+
+
+#start-button  {
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+    background-color: transparent;
+    color: white;
+    font-size:22px;
+}
+#start-button a {
+    color: white;
+}
+
+#start-button a:hover {
+    text-decoration: none;
+}
+
+#start-button:hover {
+    background-color: rgba(0, 0, 0, 0.55);
+    border-style: solid;
+    border-color: rgba(0, 6, 26,0.55);
+    border-width: 2px;
+    color: white;
+}
+
+ .icon-list {
+    margin: 0px 5px 0px 5px;
+     color: white;
+}
+
+ .icon-list:hover {
+     color: white;
+ }
+
+.text-block {
+    background-color: rgba(0,0,0,0.5);
+    margin-right: 40%;
+    margin-left: 2%;
+    padding: 50px 30px 50px 30px;
+}
+
+footer {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+footer a:hover {
+    color: white;
+}
+
