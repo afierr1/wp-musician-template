@@ -1,5 +1,5 @@
 <footer>
-    <small>©2020 by Analilia Fierro. A <a href="#">WordPress</a> powered site.</small>
+    <small>©2020 by <?php bloginfo('name'); ?> . A <a href="#">WordPress</a> powered site designed by Analilia Fierro.</small>
 </footer>
 </body>
 <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
