@@ -1,6 +1,9 @@
 # A WordPress template just for musicians!
-## About
+## Sample Site
 Link to example: analiliafierro.com/wordpress-demo
+
+## About
+
 This began as a personal project to learn WordPress development. The purpose of this project was to learn the basics of WordPress development and to potentially gain a career in PHP development. This template is free for anyone to use and customize, but I simply ask that you give me some credit! :) This is a work in-progress and it is currently being used by some professional musicians.
 
 ## Why WordPress?
