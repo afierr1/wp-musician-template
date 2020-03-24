@@ -1,6 +1,6 @@
 # A WordPress template just for musicians!
 ## Sample Site
-Link to example: [click here](analiliafierro.com/wordpress-demo).
+Link to example: [click here](http://analiliafierro.com/wordpress-demo).
 
 ## About
 
