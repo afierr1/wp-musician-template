@@ -103,6 +103,13 @@ a.navbar-brand {
     margin-left: 2%;
     padding: 50px 30px 50px 30px;
 }
+
+.text-block h2 {
+    display: inline-block;
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    padding-bottom: 10px;
+}
 .video-block {
     background-color: rgba(0,0,0,0.5);
     height: 500px;
